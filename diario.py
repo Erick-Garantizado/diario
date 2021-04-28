@@ -52,5 +52,3 @@ while True:
         continue
 
 color_msg("Até mais!", 6)
-
-""" Criar um metodo de recuperar a senha."""
