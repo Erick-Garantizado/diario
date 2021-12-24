@@ -51,4 +51,4 @@ while True:
         print("Número de menu inválido!")
         continue
 
-color_msg("Até mais!", 6)
+color_msg("Até logo!!!!", 6)
