@@ -48,7 +48,7 @@ while True:
         break
 
     else:
-        print("Número de menu inválido!")
+        print("O numero do menu e invalido")
         continue
 
 color_msg("Até mais!", 6)
