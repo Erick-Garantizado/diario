@@ -1,5 +1,5 @@
 from connect import *
-
+import os
 
 db = "diario_banco.db"
 if not existe_banco(db):
@@ -7,7 +7,7 @@ if not existe_banco(db):
 
 while True:
 
-    os.system("cls")
+    os.system('cls' if os.name == 'nt' else 'clear')
     cabecalho("Diário")
     try:
         color_msg('[1] Cadastro\n'
@@ -51,4 +51,4 @@ while True:
         print("Número de menu inválido!")
         continue
 
-color_msg("Até mais!", 6)
+color_msg("Obrigado volte semple!", 6)
